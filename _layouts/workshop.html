@@ -1,0 +1,699 @@
+---
+layout: default
+---
+
+<!-- about.html -->
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">
+      {% if site.title == "blank" -%}{{ site.first_name }} {{ site.middle_name }}
+      <span class="font-weight-bold">{{ site.last_name }}</span>{%- else -%}{{ site.title }}{%- endif %}
+    </h1>
+    <p class="desc"><b>{{ page.subtitle }}</b></p>
+  </header>
+
+  <article>
+
+    In the past three years, diffusion models have emerged as the state-of-the-art method in generative modeling with applications ranging 
+    from text-to-image generation to 3D modeling. However, while this framework has seen huge success in image, video, 3D and audio applications, 
+    extending diffusion models outside of their original Euclidean generative modeling setting remains challenging. To circumvent some of these issues, 
+    several new methods have recently and independently been proposed. As these alternatives now flourish in the literature with great experimental success, 
+    this workshop aims at bringing together the different communities working on these topics. Strengthening the connections between the different actors in 
+    this field will open new possibilities for interdisciplinary research areas and provide the ground for a unification of the existing frameworks.
+    
+    <br>
+    <br>
+    The workshop will be held on TBA - we look forward to seeing you in Vienna!
+    <br>
+    <br>
+
+    <br>
+    Ask questions to our panelists here (TBA link)
+    <br>
+    
+    We would like to thank <b>Valence Labs</b> for sponsoring the workshop (and providing prizes - to be announced!)
+    <br>
+
+          <br>
+        <div class="speakers">
+            <h2>Keynote Speakers</h2>
+            <div class="container">
+                <div class="row row-cols-2">
+
+                    <!-- Yang Song -->
+                    <div class="card-item col">
+                        <div class="card">
+                            <div class="row g-0">
+                                <div class="card-img col-md-6">
+
+                                    <img src="/assets/resized/yang.png" srcset="/assets/resized/yang.png" style="width: 150px; height: 150px; object-fit: contain;">
+
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Charlotte Bunne
+                                        </h4>
+
+                                        <h6 class="card-text">Stanford & EPFL
+                                        </h6>
+
+                                        <div class="row ml-1 mr-1 p-0">
+
+
+                                            <div class="website-icon">
+                                                <div class="icon" data-toggle="tooltip" title="Website">
+                                                    <a href="https://www.bunne.ch" title="Website" target="_blank"
+                                                        rel="noopener noreferrer"><i
+                                                            class="fas fa-address-card"></i></a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tali Dekel -->
+                    <div class="card-item col">
+                        <div class="card">
+                            <div class="row g-0">
+                                <div class="card-img col-md-6">
+
+                                    <img src="/assets/resized/tali.png" srcset="/assets/resized/tali.png" style="width: 150px; height: 150px; object-fit: contain;">
+        
+                        </div>
+                        <div class=" col-md-6">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Valentin De Bortoli
+                                        </h4>
+
+                                        <h6 class="card-text">Google DeepMind
+                                        </h6>
+
+                                        <div class="row ml-1 mr-1 p-0">
+
+
+                                            <div class="website-icon">
+                                                <div class="icon" data-toggle="tooltip" title="Website">
+                                                    <a href="https://vdeborto.github.io" title="Website"
+                                                        target="_blank" rel="noopener noreferrer"><i
+                                                            class="fas fa-address-card"></i></a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                                      <!-- Karsten -->
+                    <div class="card-item col">
+                        <div class="card">
+                            <div class="row g-0">
+                                <div class="card-img col-md-6">
+
+                                    <img src="/assets/img/Karsten-Kreis.png" srcset="/assets/img/Karsten-Kreis.png" style="width: 150px; height: 150px; object-fit: contain;">
+
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card-body">
+                                        <h4 class="card-title"> Karsten Kreis 
+                                        </h4>
+
+                                        <h6 class="card-text"> NVIDIA Research
+                                        </h6>
+
+                                        <div class="row ml-1 mr-1 p-0">
+
+
+                                            <div class="website-icon">
+                                                <div class="icon" data-toggle="tooltip" title="Website">
+                                                    <a href="https://karstenkreis.github.io" title="Website" target="_blank"
+                                                        rel="noopener noreferrer"><i
+                                                            class="fas fa-address-card"></i></a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Brian Trippe -->
+                    <div class="card-item col">
+                        <div class="card">
+                            <div class="row g-0">
+                                <div class="card-img col-md-6">
+
+                                    <img src="/assets/img/brian.png" srcset="/assets/img/brian.png" style="width: 150px; height: 150px; object-fit: contain;">
+
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Brian Trippe
+                                        </h4>
+
+                                        <h6 class="card-text"> Columbia University
+                                        </h6>
+
+                                        <div class="row ml-1 mr-1 p-0">
+
+                                            <div class="website-icon">
+                                                <div class="icon" data-toggle="tooltip" title="Website">
+                                                    <a href="https://briantrippe.com/" title="Website" target="_blank"
+                                                        rel="noopener noreferrer"><i
+                                                            class="fas fa-address-card"></i></a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Jason Yim -->
+                    <div class="card-item col">
+                        <div class="card">
+                            <div class="row g-0">
+                                <div class="card-img col-md-6">
+
+                                    <img src="/assets/img/jason.png" srcset="/assets/img/jason.png" style="width: 150px; height: 150px; object-fit: contain;">
+
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Jason Yim
+                                        </h4>
+
+                                        <h6 class="card-text">MIT
+                                        </h6>
+
+                                        <div class="row ml-1 mr-1 p-0">
+
+
+                                            <div class="website-icon">
+                                                <div class="icon" data-toggle="tooltip" title="Website">
+                                                    <a href="http://people.csail.mit.edu/jyim/" title="Website"
+                                                        target="_blank" rel="noopener noreferrer"><i
+                                                            class="fas fa-address-card"></i></a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <br>
+
+    <br>
+<br>
+    
+            <br>
+        <div class="speakers">
+            <h2>Panel</h2>
+            <div class="container">
+                <div class="row row-cols-2">
+
+                    <!-- Arash Vahdat -->
+                    <div class="card-item col">
+                        <div class="card">
+                            <div class="row g-0">
+                                <div class="card-img col-md-6">
+
+                                    <img src="/assets/resized/arash.png" srcset="/assets/resized/arash.png"
+                                        style="width: 150px; height: 150px; object-fit: contain;">
+
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Charlotte Bunne
+                                        </h4>
+
+                                        <h6 class="card-text">Stanford & EPFL
+                                        </h6>
+
+                                        <div class="row ml-1 mr-1 p-0">
+
+
+                                            <div class="website-icon">
+                                                <div class="icon" data-toggle="tooltip" title="Website">
+                                                    <a href="https://www.bunne.ch/" title="Website" target="_blank"
+                                                        rel="noopener noreferrer"><i
+                                                            class="fas fa-address-card"></i></a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Ruiqi Gao -->
+                    <div class="card-item col">
+                        <div class="card">
+                            <div class="row g-0">
+                                <div class="card-img col-md-6">
+
+                                    <img src="/assets/resized/ruiqi.png" srcset="/assets/resized/ruiqi.png"
+                                        style="width: 150px; height: 150px; object-fit: contain;">
+
+                                </div>
+                                <div class=" col-md-6">
+                                    <div class="card-body">
+                                        <h4 class="card-title"> Valentin de Bortoli
+                                        </h4>
+
+                                        <h6 class="card-text"> Google DeepMind
+                                        </h6>
+
+                                        <div class="row ml-1 mr-1 p-0">
+
+
+                                            <div class="website-icon">
+                                                <div class="icon" data-toggle="tooltip" title="Website">
+                                                    <a href="https://vdeborto.github.io/" title="Website" target="_blank"
+                                                        rel="noopener noreferrer"><i
+                                                            class="fas fa-address-card"></i></a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Sander Dieleman -->
+                    <div class="card-item col">
+                        <div class="card">
+                            <div class="row g-0">
+                                <div class="card-img col-md-6">
+
+                                    <img src="/assets/resized/tisanderm.png" srcset="/assets/resized/sander.png"
+                                        style="width: 150px; height: 150px; object-fit: contain;">
+
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card-body">
+                                        <h4 class="card-title"> Sander Dieleman
+                                        </h4>
+
+                                        <h6 class="card-text"> Google DeepMind
+                                        </h6>
+
+                                        <div class="row ml-1 mr-1 p-0">
+
+                                            <div class="website-icon">
+                                                <div class="icon" data-toggle="tooltip" title="Website">
+                                                    <a href="https://sander.ai" title="Website"
+                                                        target="_blank" rel="noopener noreferrer"><i
+                                                            class="fas fa-address-card"></i></a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Robin Rombach -->
+                    <div class="card-item col">
+                        <div class="card">
+                            <div class="row g-0">
+                                <div class="card-img col-md-6">
+
+                                    <img src="/assets/img/robin.png" srcset="/assets/img/robin.png"
+                                        style="width: 150px; height: 150px; object-fit: contain;">
+
+                                </div>
+                                <div class=" col-md-6">
+                                    <div class="card-body">
+                                        <h4 class="card-title"> Robin Rombach
+                                        </h4>
+
+                                        <h6 class="card-text">Stability AI
+                                        </h6>
+
+                                        <div class="row ml-1 mr-1 p-0">
+
+
+                                            <div class="website-icon">
+                                                <div class="icon" data-toggle="tooltip" title="Website">
+                                                    <a href="https://scholar.google.com/citations?user=ygdQhrIAAAAJ&hl=en" title="Website"
+                                                        target="_blank" rel="noopener noreferrer"><i
+                                                            class="fas fa-address-card"></i></a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <br>
+    <div class="speakers">
+      <h2>Organizers</h2>
+
+      <div class="container">
+        <div class="row row-cols-2">
+
+          <div class="card-item col">
+            <div class="card">
+              <div class="row g-0">
+                <div class="card-img col-md-6">
+
+
+
+                  <img src="/assets/resized/Valentin-480x360.jpg"
+                    srcset="    /assets/resized/Valentin-480x360.jpg 480w,/ assets/resized/Valentin.jpg 666w">
+
+                </div>
+                <div class="col-md-6">
+                  <div class="card-body">
+                    <h4 class="card-title">Hannes Staerk
+                    </h4>
+
+                    <h6 class="card-text">Massachusetts Institute of Technology
+                    </h6>
+
+                    <div class="row ml-1 mr-1 p-0">
+
+                       
+                      <div class="icon" data-toggle="tooltip" title="Twitter">
+                        <a href="https://twitter.com/HannesStaerk" title="Twitter" target="_blank"
+                          rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                      </div>
+
+
+                       
+                      <div class="google-scholar-icon">
+                        <div class="icon" data-toggle="tooltip" title="Goole Scholar">
+                          <a href="https://scholar.google.com/citations?user=bnXfJdEAAAAJ" title="GooleScholar"
+                            target="_blank" rel="noopener noreferrer"><i class="ai ai-google-scholar"></i></a>
+                        </div>
+                      </div>
+
+
+                       
+                      <div class="website-icon">
+                        <div class="icon" data-toggle="tooltip" title="Website">
+                          <a href="https://hannes-stark.com/" title="Website" target="_blank"
+                            rel="noopener noreferrer"><i class="fas fa-address-card"></i></a>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="card-item col">
+            <div class="card">
+              <div class="row g-0">
+                <div class="card-img col-md-6">
+
+
+
+                  <img src="/assets/resized/Charlotte-v2-1400x1050.jpg"
+                    srcset="    /assets/resized/Charlotte-v2-480x360.jpg 480w,    /assets/resized/Charlotte-v2-800x600.jpg 800w,    /assets/resized/Charlotte-v2-1400x1050.jpg 1400w,/ assets/img/Charlotte-v2.jpg 4272w">
+
+                </div>
+                <div class="col-md-6">
+                  <div class="card-body">
+                    <h4 class="card-title">Heli-Ben Hamu
+                    </h4>
+
+                    <h6 class="card-text">Weizmann Institute of Science
+                    </h6>
+
+                    <div class="row ml-1 mr-1 p-0">
+
+                       
+                      <div class="icon" data-toggle="tooltip" title="Twitter">
+                        <a href="https://twitter.com/helibenhamu" title="Twitter" target="_blank"
+                          rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                      </div>
+
+
+                       
+                      <div class="google-scholar-icon">
+                        <div class="icon" data-toggle="tooltip" title="Goole Scholar">
+                          <a href="https://scholar.google.com/citations?user=DL6Gk3AAAAAJ&hl=en" title="GooleScholar"
+                            target="_blank" rel="noopener noreferrer"><i class="ai ai-google-scholar"></i></a>
+                        </div>
+                      </div>
+
+
+                       
+                      <div class="website-icon">
+                        <div class="icon" data-toggle="tooltip" title="Website">
+                          <a href="https://helibenhamu.github.io/" title="Website" target="_blank" rel="noopener noreferrer"><i
+                              class="fas fa-address-card"></i></a>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-item col">
+            <div class="card">
+              <div class="row g-0">
+                <div class="card-img col-md-6">
+
+                  <img src="/assets/resized/song-v2.png" srcset="    /assets/resized/song-v2.png ">
+
+                </div>
+                <div class="col-md-6">
+                  <div class="card-body">
+                    <h4 class="card-title">Vignesh Ram Somnath
+                    </h4>
+
+                    <h6 class="card-text">ETH Zurich
+                    </h6>
+                    <div class="row ml-1 mr-1 p-0">
+
+                       
+                      <div class="icon" data-toggle="tooltip" title="Twitter">
+                        <a href="https://twitter.com/_vsomnath" title="Twitter" target="_blank"
+                          rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                      </div>
+
+
+                       
+                      <div class="google-scholar-icon">
+                        <div class="icon" data-toggle="tooltip" title="Goole Scholar">
+                          <a href="https://scholar.google.com/citations?user=6dP660cAAAAJ" title="GooleScholar"
+                            target="_blank" rel="noopener noreferrer"><i class="ai ai-google-scholar"></i></a>
+                        </div>
+                      </div>
+
+
+                       
+                      <div class="website-icon">
+                        <div class="icon" data-toggle="tooltip" title="Website">
+                          <a href="https://vsomnath.github.io/" title="Website" target="_blank" rel="noopener noreferrer"><i
+                              class="fas fa-address-card"></i></a>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-item col">
+            <div class="card">
+              <div class="row g-0">
+                <div class="card-img col-md-6">
+
+                  <img src="/assets/resized/" srcset="    /assets/resized/bahjat-v3.png 480w">
+
+                </div>
+                <div class="col-md-6">
+                  <div class="card-body">
+                    <h4 class="card-title">Michael S. Albergo
+                    </h4>
+
+                    <h6 class="card-text">New York University
+                    </h6>
+
+                    <div class="row ml-1 mr-1 p-0">
+
+                       
+                      <div class="icon" data-toggle="tooltip" title="Twitter">
+                        <a href="https://twitter.com/msalbergo" title="Twitter" target="_blank"
+                          rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                      </div>
+
+
+                       
+                      <div class="google-scholar-icon">
+                        <div class="icon" data-toggle="tooltip" title="Goole Scholar">
+                          <a href="https://scholar.google.com/citations?user=GQyCZ4kAAAAJ&hl=en" title="GooleScholar"
+                            target="_blank" rel="noopener noreferrer"><i class="ai ai-google-scholar"></i></a>
+                        </div>
+                      </div>
+
+
+                       
+                      <div class="website-icon">
+                        <div class="icon" data-toggle="tooltip" title="Website">
+                          <a href="http://malbergo.me/" title="Website" target="_blank"
+                            rel="noopener noreferrer"><i class="fas fa-address-card"></i></a>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-item col">
+            <div class="card">
+              <div class="row g-0">
+                <div class="card-img col-md-6">
+
+                  <img src="/assets/resized/chenlin-v2.png" srcset="/assets/resized/chenlin-v2.png 480w">
+
+                </div>
+                <div class="col-md-6">
+                  <div class="card-body">
+                    <h4 class="card-title"> Unknown
+                    </h4>
+
+                    <h6 class="card-text"> Unknown
+                    </h6>
+
+                    <div class="row ml-1 mr-1 p-0">
+
+                       
+                      <div class="icon" data-toggle="tooltip" title="Twitter">
+                        <a href="https://twitter.com/chenlin_meng" title="Twitter" target="_blank"
+                          rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                      </div>
+
+
+                       
+                      <div class="google-scholar-icon">
+                        <div class="icon" data-toggle="tooltip" title="Goole Scholar">
+                          <a href="https://scholar.google.com/citations?user=nEFU7wIAAAAJ" title="GooleScholar"
+                            target="_blank" rel="noopener noreferrer"><i class="ai ai-google-scholar"></i></a>
+                        </div>
+                      </div>
+
+
+                       
+                      <div class="website-icon">
+                        <div class="icon" data-toggle="tooltip" title="Website">
+                          <a href="https://cs.stanford.edu/~chenlin/" title="Website" target="_blank"
+                            rel="noopener noreferrer"><i class="fas fa-address-card"></i></a>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="card-item col">
+            <div class="card">
+              <div class="row g-0">
+                <div class="card-img col-md-6">
+
+
+
+                  <img src="/assets/resized/james-v2.png" srcset="/assets/resized/james-v2.png">
+
+                </div>
+                <div class="col-md-6">
+                  <div class="card-body">
+                    <h4 class="card-title">Arnaud Doucet
+                    </h4>
+
+                    <h6 class="card-text"> Google DeepMind
+                    </h6>
+
+                    <div class="row ml-1 mr-1 p-0">
+
+                       
+                      <div class="icon" data-toggle="tooltip" title="Twitter">
+                        <a href="https://twitter.com/ArnaudDoucet1" title="Twitter" target="_blank"
+                          rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                      </div>
+
+
+                       
+                      <div class="google-scholar-icon">
+                        <div class="icon" data-toggle="tooltip" title="Goole Scholar">
+                          <a href="https://scholar.google.co.uk/citations?user=W4SZGV8AAAAJ&hl=en" title="GooleScholar"
+                            target="_blank" rel="noopener noreferrer"><i class="ai ai-google-scholar"></i></a>
+                        </div>
+                      </div>
+
+
+                       
+                      <div class="website-icon">
+                        <div class="icon" data-toggle="tooltip" title="Website">
+                          <a href="https://www.stats.ox.ac.uk/~doucet/" title="Website" target="_blank"
+                            rel="noopener noreferrer"><i class="fas fa-address-card"></i></a>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+    <br>
+
+
+    <br>
+    <h3 class="post-title"><span class="font-weight-bold">Questions</span></h3>
+    Contact us at
+    <a href="mailto:bridgelearningworkshop2024@gmail.com" target="_blank">bridgelearningworkshop2024@gmail.com</a>.
+
+  </article>
+
+</div>
