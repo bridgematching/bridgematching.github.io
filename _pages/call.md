@@ -2,24 +2,26 @@
 layout: page
 permalink: /submissions/
 title: Call for Papers
-description: We invite researcher in diffusion models, flow matching, stochastic interpolants and related theory and applications to submit their latest work to our workshop. Accepted papers will be presented as posters during the poster sessions. Selected works will also be highlighted as contributed talks.
+description: We invite researchers in diffusion models, flow matching, stochastic interpolants and related theory and applications to submit their latest work to our workshop. Accepted papers will be presented as posters during the poster sessions. Selected works will also be highlighted as contributed talks.
 nav: true
 nav_order: 3
 ---
-
-<br>
 
 ## Topics
 
 We invite submissions related (but not limited) to the following topics:
 
-*   `TBD`
+* Schroedinger Bridges
+* Flow Matching
+* Stochastic Interpolants
 
 ## Important Dates
 
-*   Submission Deadline: `TBD`
-*   Acceptance Notification: `TBD`
-*   Camera-Ready Deadline for Accepted Submissions: `TBD`
+All deadlines at `23:59 AoE`
+
+*   Submission Deadline: `May 29 2024`
+*   Acceptance Notification: `June 19, 2024`
+*   Camera-Ready Deadline for Accepted Submissions: `June 26, 2024`
 
 ## Submission Details
 
