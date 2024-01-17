@@ -11,9 +11,12 @@ nav_order: 3
 
 We invite submissions related (but not limited) to the following topics:
 
-* Schroedinger Bridges
 * Flow Matching
 * Stochastic Interpolants
+* Rectified Flows
+* Schrödinger Bridges
+* Discrete Bridge Matching
+* Applications where the additional flexiblilty offered by Bridge Matching is useful, over diffusion models
 
 ## Important Dates
 
