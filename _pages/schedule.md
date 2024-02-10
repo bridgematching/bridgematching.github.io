@@ -19,7 +19,7 @@ nav_order: 2
 |12:00 - 13:30 | **Lunch Break** |
 |13:30 - 14:00 | **Keynote** - Charlotte Bunne: Optimal Transport |
 |14:00 - 14:30 | **Contributed Talks** |
-|14:30 - 15:00 | **Keynote** - Alireza Makhzani: Physics and Bridge Matching |
+|14:30 - 15:00 | **Keynote** - Alireza Makhzani: Bridge Matching on Density Manifolds |
 |15:00 - 15:30 | **Coffee Break**|
 |15:30 - 16:00 | **Keynote** - Bowen Jing: AlphaFold Meets Flow Matching |
 |16:00 - 16:10 | **Best Paper Award** |
